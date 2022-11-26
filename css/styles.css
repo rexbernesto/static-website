@@ -1,5 +1,5 @@
 body{
-    background-color: blue;
+    background-color: goldenrod;
     text-align: center;
 }
 
@@ -8,4 +8,13 @@ h1, h2 {
     color: white;
     font:200
 
+}
+
+#my-avatar {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#content {
+    text-align: center;
 }
