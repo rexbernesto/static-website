@@ -1,9 +1,15 @@
  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Italianno&display=swap'); 
 
+/* CSS reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color: goldenrod;
-    text-align: center;
+    background-color: #F49D1A;
     font-family: 'EB Garamond', serif;
+    color: black;
 }
 
 h1, h2 {
@@ -24,4 +30,29 @@ h1, h2 {
 
 #my-name {
     font-family: 'Italianno', cursive;
+    color: #FFE15D;
+}
+
+#left-side {
+    width: 50%;
+    display: inline-block;
+}
+
+#right-side {
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px dotted #000000;
+}
+
+header {
+    margin-top: 16px;
+}
+.nav-link {
+    margin-left: 8px;
 }
