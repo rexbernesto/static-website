@@ -1,6 +1,9 @@
+ @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Italianno&display=swap'); 
+
 body{
     background-color: goldenrod;
     text-align: center;
+    font-family: 'EB Garamond', serif;
 }
 
 h1, h2 {
@@ -17,4 +20,8 @@ h1, h2 {
 
 #content {
     text-align: center;
+}
+
+#my-name {
+    font-family: 'Italianno', cursive;
 }
