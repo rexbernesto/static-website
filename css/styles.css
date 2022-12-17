@@ -12,7 +12,8 @@ body{
     font-family: 'Roboto', sans-serif;
     color: white;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
+    position: relative;
 }
 
 h1, h2 {
@@ -29,6 +30,7 @@ h1, h2 {
 
 #content {
     text-align: center;
+    height: 100%;
 }
 
 #my-name {
@@ -37,16 +39,18 @@ h1, h2 {
 }
 
 #left-side {
-    width: 50%;
-    display: inline-block;
-    
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+#left-side > a {
+    margin-right: 16px;
 }
 
 #right-side {
-    width: 49%;
-    display: inline-block;
-    text-align: right;
-    
+    position: absolute;
+    top: 16px;
+    right: 16px;   
 }
 
 a {
@@ -55,19 +59,11 @@ a {
     border-bottom: 1px dotted #050505;
 }
 
-header {
-    margin-top: 16px;
-}
-.nav-link {
-    margin-left: 8px;
-}
-
 footer {
     position: absolute;
-    bottom: 0;
+    bottom: 16px;
     left: 50%;
     transform: translate(-50%);
-    margin-bottom: 16px;
 }
 
 footer a:first-child {
